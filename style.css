@@ -25,9 +25,7 @@ body {
     height: 70vh;
     display: flex;
     justify-content: center;
-    align-items: center;
-    border: 2px solid black; /*remove at last */
-
+    align-items: center; 
 }
 
 .game{
@@ -38,7 +36,6 @@ body {
     justify-content: center;
     align-items: center;
     gap: 1.5vmin;
-    border: 2px solid black; /*remove at last */
 }
 
 /* button class */
@@ -52,6 +49,10 @@ body {
     color: #fff;
     background-color: #242038;
 }
+.hoverfn:hover {
+    background-color: #242038;
+    opacity: 0.9;
+}
 
 /* reset button */
 .reset-btn{
@@ -61,4 +62,31 @@ body {
     color: #fff;
     border-radius: 1rem;
     border: none;
+}
+
+.new-btn {
+    padding: 1rem;
+    font-size: 1.5rem;
+    background-color: #242038;
+    color: #fff;
+    border-radius: 1rem;
+    border: none;
+}
+
+#msg {
+    color: #fff;
+    font-size: 60px;
+    
+}
+.msg-container {
+    height: 100vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.hide {
+    display: none;
 }
