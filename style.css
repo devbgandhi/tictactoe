@@ -41,7 +41,7 @@ body {
     border: 2px solid black; /*remove at last */
 }
 
-
+/* button class */
 .box {
     height: 18vmin;
     width: 18vmin;
@@ -49,9 +49,11 @@ body {
     border: none;
     box-shadow: 0 0 1rem rgba(0,0,0,0.5);
     font-size: 10vmin;
-    color: #242038;
+    color: #fff;
+    background-color: #242038;
 }
 
+/* reset button */
 .reset-btn{
     padding: 1rem;
     font-size: 1.5rem;
